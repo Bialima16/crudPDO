@@ -1,0 +1,64 @@
+*{
+     padding: 0;
+     margin: 0;
+     font-family: Arial;
+}
+label,input{
+     display: block;
+     line-height: 30px;
+     height: 30px;
+     outline: none;
+     font-size: 13pt;
+     width: 100%;
+}
+form{
+     width: 300px;
+     background-color: darkgray;
+     padding: 20px;
+     margin: 30px auto;
+}
+input[type=submit]{
+     margin-top:10px;
+     cursor: pointer; 
+}
+h2{
+     text-align: center;
+     color:black;
+}
+#esquerda{
+     width: 35%;
+     float: left;
+     height: 500px;
+}
+#direita{
+    width: 65%;
+    float: left;
+    height: 500px;
+}
+table{
+     background-color:darkgray;
+     width: 90%;
+     margin: 30px auto;
+}
+tr{
+     line-height: 30px;
+}
+tr#titulo{
+     font-weight: bold;
+     background-color: black;
+     color: white;
+}
+td{
+     padding: 0px 5px;
+}
+a{
+     padding: 5px;
+     margin: 0px 5px;
+     text-decoration: none;
+     background-color: white;
+     color: black;
+}
+img{
+     height: 5px;
+     width: 5px;
+}
